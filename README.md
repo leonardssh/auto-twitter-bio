@@ -1,6 +1,8 @@
 # auto-twitter-bio
 ☁️ Automatized Twitter biography using openweathermap.org API
 
+Remember to 🌟 this Github if you 💖 it.
+
 ## Installation
 
 ### [Twitter] Get API Keys and Tokens
