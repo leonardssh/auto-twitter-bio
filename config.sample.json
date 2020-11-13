@@ -1,0 +1,9 @@
+{
+  "weather": "OpenWeatherMap API Key",
+  "city": "Toulouse",
+  "units": "metric",
+  "consumer_key": "",
+  "consumer_secret": "",
+  "access_token": "",
+  "access_token_secret": ""
+}
