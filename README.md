@@ -24,3 +24,5 @@ This will run the script and update your biography every 5 minutes.
 ### That's it
 
 Congratulations, you have successfully installed Automatized Twitter Biography. Feel free to open an issue if necessary!
+
+Thanks to **[Androz2091](https://github.com/Androz2091)** for the base code.
