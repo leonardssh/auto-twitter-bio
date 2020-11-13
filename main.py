@@ -15,11 +15,11 @@ with open("config.json", "r") as f:
     config = json.load(f)
 
 
-def update_desc(text):
+def update_bio(text):
     """
-    Update the Twitter profile description of the user
+    Update the Twitter biography of the user
     Args:
-        text (str): The new description content
+        text (str): The new biography content
     Returns:
         data (any): The Twitter response
     """
@@ -60,13 +60,13 @@ def get_weather_of(city):
     return data
 
 
-def generate_desc_content(weather):
+def generate_bio_content(weather):
     """
-    Generate the description content
+    Generate the bio content
     Args:
         weather (str): The weather of the city
     Returns:
-        desc_content (str): The final description content
+        bio_content (str): The final bio content
     """
 
     # The current time (hours and minutes)
@@ -112,16 +112,16 @@ def main():
     # Get the weather of the city
     weather = get_weather_of(config["city"])
 
-    # Get the description content
-    desc_content = generate_desc_content(weather)
+    # Get the bio content
+    bio_content = generate_bio_content(weather)
 
-    # Update the description
-    update_desc(desc_content)
+    # Update the biography
+    update_bio(bio_content)
 
     # Log
     log_prefix = "[" + datetime.now().strftime("%H:%M") + "]"
 
-    print(log_prefix + " Successfully updated description")
+    print(log_prefix + " Successfully updated biography")
 
 
 if __name__ == "__main__":
