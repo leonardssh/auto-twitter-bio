@@ -70,7 +70,7 @@ def generate_bio_content(weather):
     """
 
     # The current time (hours and minutes)
-    now = datetime.now().strftime("%H:%M")
+    now = datetime.now().strftime("%I:%M %p")
 
     # Some useful variables
     desc = weather["weather"][0]["description"]
@@ -119,7 +119,7 @@ def main():
     update_bio(bio_content)
 
     # Log
-    log_prefix = "[" + datetime.now().strftime("%H:%M") + "]"
+    log_prefix = "[" + datetime.now().strftime("%I:%M %p") + "]"
 
     print(log_prefix + " Successfully updated biography")
 
