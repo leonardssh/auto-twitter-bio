@@ -3,7 +3,7 @@
 
 Remember to 🌟 this Github if you 💖 it.
 
-![a1](https://i.imgur.com/CHXCTsF.png)
+![a1](https://i.imgur.com/KSs2M3Z.png)
 
 ## Installation
 
